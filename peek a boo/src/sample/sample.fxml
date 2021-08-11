@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="Pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <VBox alignment="CENTER" layoutX="2.0" layoutY="1.0" prefHeight="400.0" prefWidth="700.0" spacing="20.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HALLOO" textAlignment="CENTER">
+               <font>
+                  <Font size="53.0" />
+               </font>
+            </Text>
+            <Text fx:id="name" strokeType="OUTSIDE" strokeWidth="0.0" text="TEST" textAlignment="CENTER">
+               <font>
+                  <Font size="45.0" />
+               </font>
+            </Text>
+            <Text fx:id="nim" strokeType="OUTSIDE" strokeWidth="0.0" text="1901020028" textAlignment="CENTER" VBox.vgrow="NEVER">
+               <font>
+                  <Font size="45.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <ImageView fx:id="flashlisght" fitHeight="1800.0" fitWidth="2000.0" layoutX="-640.0" layoutY="-655.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/spotlight.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
